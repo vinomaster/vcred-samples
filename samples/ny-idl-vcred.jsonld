@@ -1,0 +1,151 @@
+{
+  "@context": [
+      "https://w3id.org/credentials#",
+      "idl.jsonld",
+  ],
+  "id": "dt-d6c46539-d861-4034-bf5b-709414805a32",                        
+  "type": ["Credential", "DriverLicense"],
+  "name": "NY Driver License",
+  "issuer": "did:sov:57696968867634",
+  "issued": "2018-01-15",
+  "claim": {
+      "id": "did:sov:11335573809",
+      "cardDataElements: [
+        {
+          "@type": "cardDataElement",,
+           "elementName": "Family Name",
+           "elementValue": "McDermott",
+           "elementAlias": "Last Name"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Given Name",
+           "elementValue": "Roger",
+           "elementAlias": "First MI"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "DOB/DDN",
+           "elementValue": "1985-12-14",
+           "elementAlias": "Birth Date"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Place of Birth",
+           "elementValue": "Hudson, NY USA",
+           "elementAlias": "Birth Place"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Date of Issue",
+           "elementValue": "2017-05-01",
+           "elementAlias": "Issued"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Expiration Date",
+           "elementValue": "2027-04-30",
+           "elementAlias": "Expires"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Customer Identifier",
+           "elementValue": "92-6578-3456-AB",
+           "elementAlias": "License Number"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Document Discriminator",
+           "elementValue": "dt-d6c46539-d861-4034-bf5b-709414805a32",
+           "elementAlias": "Document Version Number"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Portrait",
+           "elementAlias": "Photo",
+           "elementImage": "6ddH75987598256265892659QjVLsHDiNyYzxs2MPmNG8G47oS06N8i0Dis5mUePIzII4"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Signature",
+           "elementAlias": "Signature",
+           "elementImage": "6ddH75987598256265892659QjVLsHDiNyYzxs2MPmNG8G47oS06N8i0Dis5mUePIzII4"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Cardholder Address",
+           "elementValue": "10 Main Street, Hudson, NY 13067",
+           "elementAlias": "Address"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Vehicle Class",
+           "elementValue": "D",
+           "elementAlias": "Class"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Endorsements",
+           "elementValue": "NONE",
+           "elementAlias": "E"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "RCI Codes",
+           "elementValue": "B",
+           "elementAlias": "R"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Cardholder Sex",
+           "elementValue": "M",
+           "elementAlias": "Gender"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Height",
+           "elementValue": "6-3",
+           "elementAlias": "HT"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Eye Color",
+           "elementValue": "GR",
+           "elementAlias": "Eyes"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Card Image (Front)",
+           "elementAlias": "Front-side",
+           "elementImage": ""P66BLHILMNHH/dvfZwXvIUUuYXVJ6SFY+COUi5FlQUYag9LZXmPxfaSEBKSilQpW6aDSbgdr8upQNi1MPHb0UDWaMfubfZlX+dT0c2l8zyreCfi92hHA/khxWEBHJjq3rxrOLuxbh4NN1y9xdm1eBHBPMdEzcp7J9nuDBR27p4m2jpOkyABQRsVvgw+G1zCjIky/TWifnbF3jv276hIP5Y8ep85fsUz5ivBxnfrQjWM+8IXZxxV7jehgRRmQHPr7HWZchIPrj4UGYO7JXB6lP1eWU3MuHmodB50wDTEQj/a25lX5CUbUixMEAILylsMwOlW87WIeShwnjMqP6VRuwg==""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Card Image (Back)",
+           "elementAlias": "Back-side",
+           "elementImage": ""P66BLHILMNHH/dvfZwXvIUUuYXVJ6SFY+COUi5FlQUYag9LZXmPxfaSEBKSilQpW6aDSbgdr8upQNi1MPHb0UDWaMfubfZlX+dT0c2l8zyreCfi92hHA/khxWEBHJjq3rxrOLuxbh4NN1y9xdm1eBHBPMdEzcp7J9nuDBR27p4m2jpOkyABQRsVvgw+G1zCjIky/TWifnbF3jv276hIP5Y8ep85fsUz5ivBxnfrQjWM+8IXZxxV7jehgRRmQHPr7HWZchIPrj4UGYO7JXB6lP1eWU3MuHmodB50wDTEQj/a25lX5CUbUixMEAILylsMwOlW87WIeShwnjMqP6VRuwg==""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Age Indicator",
+           "elementValue": "True",
+           "elementAlias": "Age Over 21"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Citizenship Indicator",
+           "elementValue": "True",
+           "elementAlias": "USA Citizen"
+        }
+      ],
+    },
+    "signature": {
+      "type": "LinkedDataSignature2015",
+      "created": "2016-06-21T03:40:19Z",
+      "creator": "https://example.com/jdoe/keys/1",
+      "domain": "json-ld.org",
+      "nonce": "783b4dfa",
+      "signatureValue": "Rxj7Kb/tDbGHFAs6ddHjVLsHDiNyYzxs2MPmNG8G47oS06N8i0Dis5mUePIzII4+p/ewcOTjvH7aJxnKEePCO9IrlqaHnO1TfmTut2rvXxE5JNzur0qoNq2yXl+TqUWmDXoHZF+jQ7gCsmYqTWhhsG5ufo9oyqDMzPoCb9ibsNk="
+    }
+  }
+}

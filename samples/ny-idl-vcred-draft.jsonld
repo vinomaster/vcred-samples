@@ -1,0 +1,245 @@
+{
+  "@context": [
+      "https://w3id.org/credentials#",
+      "idl.jsonld",
+  ],
+  "id": "dt-d6c46539-d861-4034-bf5b-709414805a32",                        
+  "type": ["Credential", "DriverLicense"],
+  "name": "NY Driver License",
+  "issuer": "did:sov:57696968867634",
+  "issued": "2018-01-15",
+  "claim": {
+      "id": "did:sov:11335573809",
+      "cardDataElements: [
+        {
+          "@type": "cardDataElement",
+           "elementName": "Family Name",
+           "elementValue": "McDermott",
+           "elementCategory": "iso18013-1-01",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Family name or primary identifier of the individual that has been issued the identification document.",
+           "elementAlias": "Surname; Family Name; Last Name",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Given Name",
+           "elementValue": "Roger",
+           "elementCategory": "iso18013-1-02",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Given name or names (including first and middle names) of the individual that has been issued the driver license or identification document.",
+           "elementAlias": "First MI; First Name, Given Name",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "DOB/DDN",
+           "elementValue": "1985-12-14",
+           "elementCategory": "iso18013-1-03",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Month, day and year of birth date.",
+           "elementAlias": "ddn; Date of Birth; Birth Date",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Place of Birth",
+           "elementValue": "Hudson, NY USA",
+           "elementCategory": "iso18013-1-03a",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Country and municipality and/or state/province of birth location.",
+           "elementAlias": "Birth Place",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Date of Issue",
+           "elementValue": "2017-05-01",
+           "elementCategory": "iso18013-1-04a",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Date identity document was issued.",
+           "elementAlias": "Issued",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Expiration Date",
+           "elementValue": "2027-04-30",
+           "elementCategory": "iso18013-1-04b",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Expiration date of identity document.",
+           "elementAlias": "Expires",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Customer Identifier",
+           "elementValue": "92-6578-3456-AB",
+           "elementCategory": "iso18013-1-04d",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Alphanumeric string assigned to individual by the issuing authority.",
+           "elementAlias": "Customer Number; Card Number; License ID Number; Patient ID",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Document Discriminator",
+           "elementValue": "dt-d6c46539-d861-4034-bf5b-709414805a32",
+           "elementCategory": "iso18013-1-05",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Document Version Number.",
+           "elementAlias": "Document Version Number",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Portrait",
+           "elementValue": "",
+           "elementCategory": "iso18013-1-06",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Reproduction of the cardholder's photograph/image.",
+           "elementAlias": "Photo",
+           "elementImage": "6ddH75987598256265892659QjVLsHDiNyYzxs2MPmNG8G47oS06N8i0Dis5mUePIzII4"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Signature",
+           "elementValue": "",
+           "elementCategory": "iso18013-1-07",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Reproduction of the cardholder's signature.",
+           "elementAlias": "Signature",
+           "elementImage": "6ddH75987598256265892659QjVLsHDiNyYzxs2MPmNG8G47oS06N8i0Dis5mUePIzII4"
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Cardholder Address",
+           "elementValue": "10 Main Street, Hudson, NY 13067",
+           "elementCategory": "iso18013-1-08",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Place where the cardholder resides and/or may be contacted (street/house number, municipality etc.).",
+           "elementAlias": "Address",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Vehicle Class",
+           "elementValue": "M",
+           "elementCategory": "iso18013-1-09",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Vehicle types the driver is authorized to operate.",
+           "elementAlias": "Class",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Endorsements",
+           "elementValue": "4",
+           "elementCategory": "iso18013-1-09a",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Jurisdiction-specific codes denoting additional privileges granted to the cardholders.",
+           "elementAlias": "E",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "RCI Codes",
+           "elementValue": "B",
+           "elementCategory": "iso18013-1-12",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Jurisdiction-specific codes used by the issuing jurisdiction to indicate restrictions, conditions or information (RCI) codes that apply to the cardholder.",
+           "elementAlias": "Codes",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Cardholder Sex",
+           "elementValue": "M",
+           "elementCategory": "iso18013-1-15",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Cardholder's sex: M for male, F for female.",
+           "elementAlias": "Gender",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Height",
+           "elementValue": "6 - 3",
+           "elementCategory": "iso18013-1-16",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Jurisdiction-specific units of measurement for individual's height.",
+           "elementAlias": "Hgt",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Eye Color",
+           "elementValue": "GR",
+           "elementCategory": "iso18013-1-18",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "Blue, brown, black, hazel, green, gray, pink, maroon, dichromatic, or ANSI D20 abbreviated color code.",
+           "elementAlias": "Eyes",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Hair Color",
+           "elementValue": "Blonde",
+           "elementCategory": "iso18013-1-19",
+           "elementCategoryVersion": "2005-00"
+           "elementDescription": "abld, black, blonde, brown, gray, red/auburn, sandy, white, unknown or ANSI D20 abbreviated color code.",
+           "elementAlias": "Hair",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Card Image (Front)",
+           "elementValue": "",
+           "elementCategory": "nonstd-1-01a",
+           "elementCategoryVersion": "2015-00"
+           "elementDescription": "Digital rendering of the physical identity card, Front side.",
+           "elementAlias": "Front-side",
+           "elementImage": ""P66BLHILMNHH/dvfZwXvIUUuYXVJ6SFY+COUi5FlQUYag9LZXmPxfaSEBKSilQpW6aDSbgdr8upQNi1MPHb0UDWaMfubfZlX+dT0c2l8zyreCfi92hHA/khxWEBHJjq3rxrOLuxbh4NN1y9xdm1eBHBPMdEzcp7J9nuDBR27p4m2jpOkyABQRsVvgw+G1zCjIky/TWifnbF3jv276hIP5Y8ep85fsUz5ivBxnfrQjWM+8IXZxxV7jehgRRmQHPr7HWZchIPrj4UGYO7JXB6lP1eWU3MuHmodB50wDTEQj/a25lX5CUbUixMEAILylsMwOlW87WIeShwnjMqP6VRuwg==""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Card Image (Back)",
+           "elementValue": "",
+           "elementCategory": "nonstd-1-01b",
+           "elementCategoryVersion": "2015-00"
+           "elementDescription": "Digital rendering of the physical identity card, Back side.",
+           "elementAlias": "Back-side",
+           "elementImage": ""P66BLHILMNHH/dvfZwXvIUUuYXVJ6SFY+COUi5FlQUYag9LZXmPxfaSEBKSilQpW6aDSbgdr8upQNi1MPHb0UDWaMfubfZlX+dT0c2l8zyreCfi92hHA/khxWEBHJjq3rxrOLuxbh4NN1y9xdm1eBHBPMdEzcp7J9nuDBR27p4m2jpOkyABQRsVvgw+G1zCjIky/TWifnbF3jv276hIP5Y8ep85fsUz5ivBxnfrQjWM+8IXZxxV7jehgRRmQHPr7HWZchIPrj4UGYO7JXB6lP1eWU3MuHmodB50wDTEQj/a25lX5CUbUixMEAILylsMwOlW87WIeShwnjMqP6VRuwg==""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Age Indicator",
+           "elementValue": "True",
+           "elementCategory": "nonstd-1-04",
+           "elementCategoryVersion": "2015-00"
+           "elementDescription": "Boolean indicator for age related inquiry.",
+           "elementAlias": "Age Over 21",
+           "elementImage": ""
+        },
+        {
+          "@type": "cardDataElement",
+           "elementName": "Citizenship Indicator",
+           "elementValue": "True",
+           "elementCategory": "nonstd-1-05",
+           "elementCategoryVersion": "2015-00"
+           "elementDescription": "Boolean indicator for citizenship.",
+           "elementAlias": "USA Citizen",
+           "elementImage": ""
+        }
+      ],
+    },
+    "signature": {
+      "type": "LinkedDataSignature2015",
+      "created": "2016-06-21T03:40:19Z",
+      "creator": "https://example.com/jdoe/keys/1",
+      "domain": "json-ld.org",
+      "nonce": "783b4dfa",
+      "signatureValue": "Rxj7Kb/tDbGHFAs6ddHjVLsHDiNyYzxs2MPmNG8G47oS06N8i0Dis5mUePIzII4+p/ewcOTjvH7aJxnKEePCO9IrlqaHnO1TfmTut2rvXxE5JNzur0qoNq2yXl+TqUWmDXoHZF+jQ7gCsmYqTWhhsG5ufo9oyqDMzPoCb9ibsNk="
+    }
+  }
+}

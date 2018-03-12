@@ -1,0 +1,18 @@
+{
+  "@context":
+  {
+   "schema": "http://schema.org/",
+   "name": "schema:name",
+   "cardDataElement": {
+     "@id": "cardDataElement",
+     "@type": "@id",
+     "elementName": "schema:Property.name",
+     "elementValue": "schema:PropertyValue.value",
+     "elementCategory": "schema:Property.category",
+     "elementCategoryVersion": "schema:CreativeWork.version",
+     "elementDescription": "schema:Property.description",
+     "elementAlias": "schema:Property.alternateName",
+     "elementImage": "schema:Property.image"
+   }
+  }
+}
