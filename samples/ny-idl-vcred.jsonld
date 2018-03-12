@@ -10,7 +10,7 @@
   "issued": "2018-01-15",
   "claim": {
       "id": "did:sov:11335573809",
-      "cardDataElements: [
+      "cardDataElements": [
         {
           "@type": "cardDataElement",,
            "elementName": "Family Name",
