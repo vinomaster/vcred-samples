@@ -18,7 +18,7 @@
   "@id": "http://w3cid.org/schema/iso18013",
   "@type": "IDL",
   "name": "ISO-Compliant Driving Licence (IDL)",
-  "cardDataElements: [
+  "cardDataElements": [
     {
       "@type": "cardDataElement",
        "elementName": "Family Name",
