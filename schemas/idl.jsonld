@@ -24,7 +24,7 @@
        "elementName": "Family Name",
        "elementValue": "",
        "elementCategory": "iso18013-1-01",
-       "elementCategoryVersion": "2005-00"
+       "elementCategoryVersion": "2005-00",
        "elementDescription": "Family name or primary identifier of the individual that has been issued the identification document.",
        "elementAlias": "Surname; Family Name; Last Name",
        "elementImage": ""
