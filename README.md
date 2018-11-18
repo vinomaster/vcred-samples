@@ -2,12 +2,13 @@
 This repo is intended as a sandbox for iterating on best practice JSON-LD models for self-sovereign identity credentials associated with industry standard card data formats.
 
 ## Goals
-Today the common physical rendering format for an identity instrument is a paper/plastic card. For compliance purposes each industry defines standards that issuing institutions must comply with when issuing identity instruments. This repo attempts to define several exemplars of [Verifiable Credential](https://w3c.github.io/vc-data-model/) schemas that can be used for compliance activity when issuers consider the issuance of digital credentials. 
+Today the common physical rendering format for an identity instrument is a paper/plastic card. For compliance purposes each industry defines standards that issuing institutions must comply with when issuing identity instruments. This repo attempts to define several exemplars of [Verifiable Credential](https://w3c.github.io/vc-data-model/) schemas that can be used for compliance activity when issuers consider the issuance of digital credentials.
 
 Objectives are:
 
 1. Iteratively refine sample schemas using JSON-LD best practices
 2. Register sample schemas as Credential Schemas with the [Sovrin Network](http://sovrin.org).
+3. Resolve the [Indy Compatibility Issues](./compatibility-issues.md).
 
 ## Standards
 This repo will explore several industry standards to help drive the requirements for several verifiable credential schema candidates:
@@ -30,4 +31,3 @@ This repo is organized using the subsequent file structure:
 2. Add others standards
 3. Formalize hosting of vocabs
 4. Register schemas
-  
